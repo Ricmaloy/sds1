@@ -17,10 +17,10 @@ const Home = () => {
         <>
         <Header />
         <View style={styles.container}>
-            {/* <Image 
+            <Image 
                 source={require('../../assets/gamer.png')} 
                 style={styles.gamerImage}
-            /> */}
+            />
             <Text style={styles.title}>Vote agora!</Text>
             <Text style={styles.subTitle}>Nos diga qual é seu jogo favorito!</Text>
         </View>
@@ -47,24 +47,24 @@ const styles = StyleSheet.create({
       alignItems: 'center',
     },
     gamerImage: {
-      width: 309,
-      height: 288
+      width: 216,
+      height: 202
     },
     title: {
       color: '#00D4FF',
-      fontSize: 36,
+      fontSize: 26,
       fontWeight: 'bold',
       marginTop: 31,
       fontFamily: "Play_700Bold",
     },
     subTitle: {
       color: '#ED7947',
-      fontSize: 21,
+      fontSize: 17,
       marginTop: 15,
       fontFamily: "Play_400Regular",
     },
     footer: {
-      marginTop: '15%',
+      marginTop: '10%',
       alignItems: 'center'
     },
     button: {
