@@ -1,3 +1,7 @@
+.home-image {
+  overflow: inherit;
+}
+
 .home-container {
     margin-top: 150px;
     display: flex;
@@ -5,12 +9,13 @@
   }
   
   .home-text {
-    width: 490px;
+    width: 600px;
     margin-right: 70px;
   }
   
   .home-text-title {
     font-size: 55px;
+    height: 130px;
     color: var(--color-turquoise);
   }
   

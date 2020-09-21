@@ -1,0 +1,244 @@
+  /*  ANIMATIONS   */
+
+  @keyframes rotateBackground {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+  }
+
+  @keyframes flashScreen {
+    0%,100%,20%,22%,30%,32%,70%,72% { opacity: 0.1; }
+    21%,31%,71% {opacity: 0;}
+  }
+
+  @keyframes mouseMove {
+    0%,100% { transform: translate(-20px, 5px); }
+    50% { transform: translate(10px, -10px); }
+  }
+
+  @keyframes rightArmMove {
+    0%,100% { transform: rotate(3deg) translate(0px, -5px); }
+    50% { transform: rotate(-1deg) translate(0px, 0px); }
+  }
+
+  @keyframes leftArmMove {
+    0%,100% { transform: rotate(-7deg) translate(-10px, -5px) }
+    50% { transform: rotate(13deg) translate(-12px, 3px) }
+  }
+
+  @keyframes userDisplayAnimated {
+    0%, 100% { transform: translateY(-15px); }
+    50% { transform: translateY(5px); }
+  }
+
+  @keyframes foodAnimated {
+    0%, 100% { transform: translateY(0px); }
+    50% { transform: translateY(-15px); }
+  }
+
+  /* -------------------------------------------------------------- */
+
+
+  .home-image > path:nth-child(1){
+    transform-origin: center;
+    animation: rotateBackground 10s linear infinite;
+  }
+  
+  .home-image > path:nth-child(2){
+    animation: flashScreen 4s linear infinite;
+  }
+  
+  .home-image > path:nth-child(63),
+  .home-image > path:nth-child(64),
+  .home-image > path:nth-child(65),
+  .home-image > path:nth-child(66){
+    animation: mouseMove 4s linear infinite;
+  }
+  
+  .home-image > path:nth-child(67),
+  .home-image > path:nth-child(68) {
+    animation: rightArmMove 4s linear infinite;
+  }
+  
+  .home-image > path:nth-child(74) {
+    transform: rotate(-7deg) translate(-10px, -5px);
+    transform-origin: center;
+    animation: leftArmMove 4s 1.5s linear infinite;
+  }
+  
+  
+  .home-image > path:nth-child(84),
+  .home-image > path:nth-child(85),
+  .home-image > path:nth-child(86),
+  .home-image > path:nth-child(87),
+  .home-image > path:nth-child(88),
+  .home-image > path:nth-child(89),
+  .home-image > path:nth-child(90),
+  .home-image > path:nth-child(91),
+  .home-image > path:nth-child(92),
+  .home-image > path:nth-child(93),
+  .home-image > path:nth-child(94),
+  .home-image > path:nth-child(95),
+  .home-image > path:nth-child(96),
+  .home-image > path:nth-child(97),
+  .home-image > path:nth-child(98),
+  .home-image > path:nth-child(99),
+  .home-image > path:nth-child(100),
+  .home-image > path:nth-child(101),
+  .home-image > path:nth-child(102),
+  .home-image > path:nth-child(103),
+  .home-image > path:nth-child(104),
+  .home-image > path:nth-child(105),
+  .home-image > path:nth-child(106),
+  .home-image > path:nth-child(107),
+  .home-image > path:nth-child(108),
+  .home-image > path:nth-child(109),
+  .home-image > path:nth-child(110),
+  .home-image > path:nth-child(111),
+  .home-image > path:nth-child(112),
+  .home-image > path:nth-child(113),
+  .home-image > path:nth-child(114),
+  .home-image > path:nth-child(115),
+  .home-image > path:nth-child(116),
+  .home-image > path:nth-child(117),
+  .home-image > path:nth-child(118),
+  .home-image > path:nth-child(119),
+  .home-image > path:nth-child(120),
+  .home-image > path:nth-child(121),
+  .home-image > path:nth-child(122),
+  .home-image > path:nth-child(123),
+  .home-image > path:nth-child(124),
+  .home-image > path:nth-child(125),
+  .home-image > path:nth-child(126),
+  .home-image > path:nth-child(127),
+  .home-image > path:nth-child(128),
+  .home-image > path:nth-child(129),
+  .home-image > path:nth-child(130),
+  .home-image > path:nth-child(131),
+  .home-image > path:nth-child(132),
+  .home-image > path:nth-child(133),
+  .home-image > path:nth-child(134),
+  .home-image > path:nth-child(135),
+  .home-image > path:nth-child(136),
+  .home-image > path:nth-child(137),
+  .home-image > path:nth-child(138),
+  .home-image > path:nth-child(139),
+  .home-image > path:nth-child(140),
+  .home-image > path:nth-child(141),
+  .home-image > path:nth-child(142),
+  .home-image > path:nth-child(143),
+  .home-image > path:nth-child(144),
+  .home-image > path:nth-child(145),
+  .home-image > path:nth-child(146),
+  .home-image > path:nth-child(147),
+  .home-image > path:nth-child(148),
+  .home-image > path:nth-child(149),
+  .home-image > path:nth-child(150),
+  .home-image > path:nth-child(151),
+  .home-image > path:nth-child(152),
+  .home-image > path:nth-child(153),
+  .home-image > path:nth-child(154),
+  .home-image > path:nth-child(155),
+  .home-image > path:nth-child(156),
+  .home-image > path:nth-child(157),
+  .home-image > path:nth-child(158),
+  .home-image > path:nth-child(159),
+  .home-image > path:nth-child(160),
+  .home-image > path:nth-child(161),
+  .home-image > path:nth-child(162),
+  .home-image > path:nth-child(163),
+  .home-image > path:nth-child(164),
+  .home-image > path:nth-child(165),
+  .home-image > path:nth-child(166),
+  .home-image > path:nth-child(167),
+  .home-image > path:nth-child(168),
+  .home-image > path:nth-child(169),
+  .home-image > path:nth-child(170),
+  .home-image > path:nth-child(171),
+  .home-image > path:nth-child(172),
+  .home-image > path:nth-child(173),
+  .home-image > path:nth-child(174){
+    animation: userDisplayAnimated 3s linear infinite;
+  }
+  
+  
+  .home-image > path:nth-child(176),
+  .home-image > path:nth-child(177),
+  .home-image > path:nth-child(178),
+  .home-image > path:nth-child(179),
+  .home-image > path:nth-child(180),
+  .home-image > path:nth-child(181),
+  .home-image > path:nth-child(182),
+  .home-image > path:nth-child(183),
+  .home-image > path:nth-child(184),
+  .home-image > path:nth-child(185),
+  .home-image > path:nth-child(186),
+  .home-image > path:nth-child(187),
+  .home-image > path:nth-child(188),
+  .home-image > path:nth-child(189),
+  .home-image > path:nth-child(190),
+  .home-image > path:nth-child(191) {
+    animation: foodAnimated 3s 1s linear infinite;
+  }
+  
+  .home-image > path:nth-child(193),
+  .home-image > path:nth-child(194),
+  .home-image > path:nth-child(195),
+  .home-image > path:nth-child(196),
+  .home-image > path:nth-child(197),
+  .home-image > path:nth-child(198),
+  .home-image > path:nth-child(199),
+  .home-image > path:nth-child(200),
+  .home-image > path:nth-child(201),
+  .home-image > path:nth-child(202),
+  .home-image > path:nth-child(203),
+  .home-image > path:nth-child(204),
+  .home-image > path:nth-child(205),
+  .home-image > path:nth-child(206),
+  .home-image > path:nth-child(207),
+  .home-image > path:nth-child(208),
+  .home-image > path:nth-child(209),
+  .home-image > path:nth-child(210),
+  .home-image > path:nth-child(211),
+  .home-image > path:nth-child(212),
+  .home-image > path:nth-child(213),
+  .home-image > path:nth-child(214),
+  .home-image > path:nth-child(215),
+  .home-image > path:nth-child(216),
+  .home-image > path:nth-child(217),
+  .home-image > path:nth-child(218),
+  .home-image > path:nth-child(219),
+  .home-image > path:nth-child(220) {
+    animation: foodAnimated 3s 1.5s linear infinite;
+  }
+  
+  
+  .home-image > path:nth-child(222),
+  .home-image > path:nth-child(223),
+  .home-image > path:nth-child(224),
+  .home-image > path:nth-child(225),
+  .home-image > path:nth-child(226),
+  .home-image > path:nth-child(227),
+  .home-image > path:nth-child(228),
+  .home-image > path:nth-child(229),
+  .home-image > path:nth-child(230),
+  .home-image > path:nth-child(231),
+  .home-image > path:nth-child(232),
+  .home-image > path:nth-child(233),
+  .home-image > path:nth-child(234),
+  .home-image > path:nth-child(235),
+  .home-image > path:nth-child(236),
+  .home-image > path:nth-child(237),
+  .home-image > path:nth-child(238),
+  .home-image > path:nth-child(239),
+  .home-image > path:nth-child(240),
+  .home-image > path:nth-child(241),
+  .home-image > path:nth-child(242),
+  .home-image > path:nth-child(243),
+  .home-image > path:nth-child(244),
+  .home-image > path:nth-child(245),
+  .home-image > path:nth-child(246),
+  .home-image > path:nth-child(247),
+  .home-image > path:nth-child(248),
+  .home-image > path:nth-child(249) {
+    animation: foodAnimated 3s 2s linear infinite;
+  }
