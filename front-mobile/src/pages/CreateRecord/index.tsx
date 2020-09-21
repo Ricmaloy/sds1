@@ -59,7 +59,7 @@ const CreateRecord = () => {
     }
  
     useEffect(() => {
-        axios.get(`${BASE_URL}/gamesabc`)
+        axios.get(`${BASE_URL}/games`)
         .then(response => {
             const selectValues = mapSelectValues(response.data);
             console.log(selectValues);
